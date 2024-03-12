@@ -75,12 +75,10 @@ function collisionDetection(){
             if(currentBrick.satatus===BRICK_STATUS.DESTROYED)continue;
             if(x>currentBrick.x&&x<currentBrick.x+brickWidth&&y>currentBrick.y&&y<currentBrick.y+brickHeight){
                 count++;
-                console.log(count);
                 dy=-dy;
                 if(count%10===0){
                     dy*=1.05;
                     dx*=1.05;
-                    console.log(dy,dx);
                 }
                 currentBrick.satatus=BRICK_STATUS.DESTROYED;
             }
