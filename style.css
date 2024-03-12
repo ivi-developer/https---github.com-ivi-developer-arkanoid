@@ -1,0 +1,12 @@
+body{
+    background-image:url(./images/intoxicados-buen-dia.jpg);
+    background-position: center center;
+}
+canvas{
+    border: 4px solid #28cc12;
+    background: url(./images/intoxicados.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 10% auto;
+}
